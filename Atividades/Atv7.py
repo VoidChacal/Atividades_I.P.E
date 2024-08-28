@@ -2,19 +2,10 @@ Numero1 = int(input("Digite um numero: "))
 Numero2 = int(input("Digite outro numero: "))
 Numero3 = int(input("Digite outro numero: "))
 
-if (Numero1 > Numero2) and (Numero3 > Numero2):
-    print("O maior numero é:" , Numero1)
-    print("O menor numero é:" , Numero3)
+maior_numero = max(Numero1, Numero2, Numero3)
+menor_numero = min(Numero1, Numero2, Numero3)
 
-elif (Numero1 < Numero2) and (Numero3 < Numero1):
-    print("O maior numero é:" , Numero2)
-    print("O menor numero é:" , Numero3)
-elif (Numero3 < Numero2) and (Numero
+print("O maior numero é:", maior_numero)
+print("O menor numero é:", menor_numero)
+
     
-
-#elif(Numero2 > Numero1) and (Numero2 > Numero3):
-#    print("O maior numero é:" , Numero2)
-
-#elif(Numero3 > Numero1) and (Numero3 > Numero2):
-#    print("O maior numero é:" , Numero3)
-
